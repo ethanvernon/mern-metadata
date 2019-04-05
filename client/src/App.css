@@ -1,0 +1,167 @@
+#root {
+  font-family:Roboto;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------Title.js-------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+.heading {
+  text-align:center;
+  background-color:#21201E;
+  height:150px;
+  overflow:hidden; 
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color:white;
+  padding-top:15px;
+}
+
+.heading h1 {  
+  width:98%;
+  letter-spacing:3px;
+  font-weight:500;  
+  font-size:calc(19px + 2vw);
+  font-family: "Anton";
+}
+
+.heading h2 {
+  font-size:calc(13px + 1vw);;
+}
+
+@media only screen and (min-width: 1025px) {
+  .heading h1 {
+    font-size:40.5px;
+  }
+
+  .heading h2 {
+    font-size:23.25px;
+  }
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------Description.js-------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+.description {
+  background-color:#F5F5F5;
+  padding:20px;
+  padding-top:36px;
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+  color:#263238;
+  font-family:"Roboto";
+  list-style-position: inside;
+  font-size:16px;
+}
+
+.description h2 {
+  font-size:26px;
+  font-weight:600;
+}
+
+.description ol {
+  padding-inline-start: 0px;
+}
+
+.description li {
+  margin-bottom:10px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------CreateFile.js---------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+/*holds the form*/
+.search-container {
+  width:95%;
+  max-width:600px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:40px;
+  margin-bottom:40px;
+  border: 1px solid #ccc;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-container button {
+  width:80px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:20px;
+  margin-bottom:14px;
+  display:flex;
+}
+
+.search-container input {
+  width:230px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:30px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------ResultPre.js---------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+#result-output {
+  height:200px;
+  width:95%;
+  max-width:600px;
+  background-color:#f5f5f5;
+  overflow-y:scroll;
+  overflow-x:scroll;
+  display:block;
+  word-break:break-all;
+  word-wrap:break-word;
+  border: 1px solid #ccc;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:40px;
+  padding:8px;
+  line-height:2em;
+  font-size:16px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------Footer.js------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+.footer {
+  background-color:#21201E;
+  color: white;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+.social-media {
+  margin:auto;
+}
+
+.social-icons {
+  margin: 20px;
+}
+
+.footer p {
+  text-align:center;
+}
+
+.footer a {  
+  color:#9bcbff;
+}
+
+.footer a:hover {
+  color:#1c89ff;
+}
